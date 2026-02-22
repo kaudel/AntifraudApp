@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/Docker/">
+    <Project Path="docker-compose.dcproj">
+      <Build />
+    </Project>
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/AntifraudService/">
+    <Project Path="src/Yape.AntifraudService.API/Yape.AntifraudService.API.csproj" Id="dbf6e926-cbcf-4d45-8f0c-91e6e2f2cbbe" />
+    <Project Path="src/Yape.AntifraudService.Application/Yape.AntifraudService.Application.csproj" Id="fcb7763e-831a-43b2-ada9-cbb5b7ba9805" />
+    <Project Path="src/Yape.AntifraudService.Domain/Yape.AntifraudService.Domain.csproj" Id="297ac944-9eb3-47a0-b6e2-aa2acaa42a65" />
+    <Project Path="src/Yape.AntifraudService.Infraestructure/Yape.AntifraudService.Infraestructure.csproj" Id="1a75b543-962c-46b7-9a5f-f44a55b6ef7c" />
+  </Folder>
+  <Folder Name="/src/TransactionService/">
+    <Project Path="src/Yape.TransactionService.API/Yape.TransactionService.API.csproj" Id="88de0bce-38f3-42c2-a338-32fee6121d7d" />
+    <Project Path="src/Yape.TransactionService.Application/Yape.TransactionService.Application.csproj" Id="5b090c51-51f9-44c4-b620-80b4604d4e25" />
+    <Project Path="src/Yape.TransactionService.Domain/Yape.TransactionService.Domain.csproj" />
+    <Project Path="src/Yape.TransactionService.Infraestructure/Yape.TransactionService.Infraestructure.csproj" Id="a09db2b1-084a-4ee3-9bdc-da788cdf6c3f" />
+  </Folder>
+  <Project Path="tests/Yape.AntifraudService.UnitTests/Yape.AntifraudService.UnitTests.csproj" Id="a613a488-081a-4627-a454-cab790a47ba6" />
+</Solution>

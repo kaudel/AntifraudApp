@@ -1,0 +1,13 @@
+services:
+  yape.transactionservice.api:
+    image: ${DOCKER_REGISTRY-}yapetransactionserviceapi
+    build:
+      context: .
+      dockerfile: src/Yape.TransactionService.API/Dockerfile
+
+  yape.antifraudservice.api:
+    image: ${DOCKER_REGISTRY-}yapeantifraudserviceapi
+    build:
+      context: .
+      dockerfile: src/Yape.AntifraudService.API/Dockerfile
+

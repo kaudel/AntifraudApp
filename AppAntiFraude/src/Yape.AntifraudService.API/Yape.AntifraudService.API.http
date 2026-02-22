@@ -1,0 +1,6 @@
+@Yape.AntifraudService.API_HostAddress = http://localhost:5179
+
+GET {{Yape.AntifraudService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
